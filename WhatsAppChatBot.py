@@ -35,7 +35,7 @@ def send(msg):                      #Defining the send function
  
 w.open("https://web.whatsapp.com/") #Open whatsapp web
 time.sleep(60)                      #Wait 1 minutes to let the page load properly  
-p.click(190,150)                     #Click on the "search" area
+p.click(1786, 209)                     #Click on the "search" area
 p.typewrite("Tridib Jio\n")         #Type the name of the receiver
 time.sleep(2)                       #Delay for stability
  
